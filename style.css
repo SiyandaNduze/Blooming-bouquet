@@ -88,7 +88,6 @@ body {
 .bouquet {
     position: absolute;
     bottom: 100px;
-    display: flex;
     transition: all 2s ease;
 }
 
@@ -98,17 +97,17 @@ body {
     transition: opacity 2s ease;
     color: #ff1493;
     font-size: 1.5rem;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 /*replay button*/
 #replay {
-    margin-top: 15px;
+    margin-top: 5px;
     padding: 8px 20px;
     border: none;
     background: #ff69b4;
     color: white;
-    border-radius: 20px;
+    border-radius: 15px;
     cursor: pointer;
     opacity: 0;
     transition: opacity 2s ease; 
@@ -142,11 +141,11 @@ body {
     width: 280px;
     height: 200px;
     background: linear-gradient(135deg, #ffe4e1, #ffc0cb);
-    bottom: 100px;
+    bottom: 140px;
     left: 50%;
     transform: translateX(-50%);
     clip-path:polygon(50% 100%, 0% 0%, 100% 0%);
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: inset 0 -15px 25px rgba(0,0,0,0.15);
     opacity: 0;
     transition: opacity 2s ease;
@@ -159,7 +158,7 @@ body {
     width: 120px;
     height: 30px;
     background: #ff1493;
-    bottom: 160px;
+    bottom: 190px;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 25px;
