@@ -15,14 +15,14 @@ body {
 .garden {
     position: relative;
     width: 100%;
-    height: 120%;
+    height: 100%;
     overflow: hidden;
 }
 
 /*Flower*/
 .flower{
     position: absolute;
-    width: 80px;
+    width: 80x;
     height: 200px;
     transform: scale(0);
     transition: transform 1s ease, left 2s ease, top 2s ease;
@@ -89,7 +89,6 @@ body {
     position: absolute;
     bottom: 100px;
     display: flex;
-    gap: 0;
     transition: all 2s ease;
 }
 
@@ -140,7 +139,7 @@ body {
 /*wrap*/
 .bouquet-wrap {
     position: absolute;
-    width: min(85vw, 280px);
+    width: 280px;
     height: 200px;
     background: linear-gradient(135deg, #ffe4e1, #ffc0cb);
     bottom: 100px;
