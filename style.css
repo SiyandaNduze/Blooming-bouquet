@@ -197,8 +197,8 @@ body {
 }
 
 /*mobile adjustments*/
-/* @media (max-width: 600px) {
+@media (max-width: 600px) {
     #message {
         font-size: 1.2rem;
     }
-} */
+}
