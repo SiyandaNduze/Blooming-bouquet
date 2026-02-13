@@ -68,7 +68,7 @@ function gatherFlowers() {
     flowers.forEach((flower,index) => {
         const pos = layout[index % layout.length];
 
-        flower.style.left = (centerX + pos.x - 30) + "px";
+        flower.style.left = (centerX + pos.x - 40) + "px";
         flower.style.top = (baseY + pos.y) + "px";
     });
 
