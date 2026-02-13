@@ -22,7 +22,7 @@ body {
 /*Flower*/
 .flower{
     position: absolute;
-    width: 80x;
+    width: 80px;
     height: 200px;
     transform: scale(0);
     transition: transform 1s ease, left 2s ease, top 2s ease;

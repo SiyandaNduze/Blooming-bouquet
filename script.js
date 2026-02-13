@@ -62,7 +62,7 @@ function gatherFlowers() {
 
         {x: -50, y: 50},
         {x: 50, y: 50},
-        {x: 0, y: 105}
+        {x: 0, y: 110}
     ];
 
     flowers.forEach((flower,index) => {
