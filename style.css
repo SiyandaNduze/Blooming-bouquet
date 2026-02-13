@@ -140,7 +140,7 @@ body {
 /*wrap*/
 .bouquet-wrap {
     position: absolute;
-    width: 280px;
+    width: min(85vw, 280px);
     height: 200px;
     background: linear-gradient(135deg, #ffe4e1, #ffc0cb);
     bottom: 100px;
